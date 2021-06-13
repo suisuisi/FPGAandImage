@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at Sobel.v(21): object "X1" differs only in case from object "x1" in the same scope File: G:/USE/FILE/FPGA/34_TFT_OV7670_VGA/SOBLE_VGA/src/Sobel/Sobel.v Line: 21
+Info (10281): Verilog HDL Declaration information at Sobel.v(21): object "X2" differs only in case from object "x2" in the same scope File: G:/USE/FILE/FPGA/34_TFT_OV7670_VGA/SOBLE_VGA/src/Sobel/Sobel.v Line: 21
+Info (10281): Verilog HDL Declaration information at Sobel.v(26): object "Y1" differs only in case from object "y1" in the same scope File: G:/USE/FILE/FPGA/34_TFT_OV7670_VGA/SOBLE_VGA/src/Sobel/Sobel.v Line: 26
+Info (10281): Verilog HDL Declaration information at Sobel.v(26): object "Y2" differs only in case from object "y2" in the same scope File: G:/USE/FILE/FPGA/34_TFT_OV7670_VGA/SOBLE_VGA/src/Sobel/Sobel.v Line: 26

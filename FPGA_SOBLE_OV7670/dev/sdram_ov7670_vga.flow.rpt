@@ -1,0 +1,146 @@
+Flow report for sdram_ov7670_vga
+Tue Oct 09 09:45:24 2018
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Tue Oct 09 09:45:18 2018           ;
+; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Standard Edition ;
+; Revision Name                      ; sdram_ov7670_vga                                ;
+; Top-level Entity Name              ; sdram_ov7670_vga                                ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE15F17C8                                    ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 1,604 / 15,408 ( 10 % )                         ;
+;     Total combinational functions  ; 1,463 / 15,408 ( 9 % )                          ;
+;     Dedicated logic registers      ; 749 / 15,408 ( 5 % )                            ;
+; Total registers                    ; 749                                             ;
+; Total pins                         ; 76 / 166 ( 46 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 29,392 / 516,096 ( 6 % )                        ;
+; Embedded Multiplier 9-bit elements ; 30 / 112 ( 27 % )                               ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/09/2018 09:44:29 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; sdram_ov7670_vga    ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                            ;
++--------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                                  ; Value                                                                                                                                     ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                            ; 53447167815632.153904946916968                                                                                                            ; --            ; --          ; --             ;
+; ENABLE_CLOCK_LATENCY                             ; On                                                                                                                                        ; Off           ; --          ; --             ;
+; MAX_CONSECUTIVE_OUTPUTS_FOR_ELECTROMIGRATION     ; 12                                                                                                                                        ; --            ; --          ; --             ;
+; MAX_CONSECUTIVE_VIO_OUTPUTS_FOR_ELECTROMIGRATION ; 8                                                                                                                                         ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP                           ; 85                                                                                                                                        ; --            ; --          ; --             ;
+; MAX_CURRENT_FOR_ELECTROMIGRATION                 ; 240                                                                                                                                       ; --            ; --          ; --             ;
+; MAX_CURRENT_FOR_VIO_ELECTROMIGRATION             ; 240                                                                                                                                       ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP                           ; 0                                                                                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                                        ; D:/fpga_project/de2_project/camera_design/sdram_ov7670_vga/dev/sdram_ov7670_vga.dpf                                                       ; --            ; --          ; --             ;
+; MISC_FILE                                        ; D:/fpga_project/vip_deveop_design/sdram_ov7670_vga/dev/sdram_ov7670_vga.dpf                                                               ; --            ; --          ; --             ;
+; MISC_FILE                                        ; D:/fpga_project/VIP_design/sdram_ov7670_vga/dev/sdram_ov7670_vga.dpf                                                                      ; --            ; --          ; --             ;
+; MISC_FILE                                        ; D:/fpga_project/VIP_design/sdram_ov7670_vga_v1/dev/sdram_ov7670_vga.dpf                                                                   ; --            ; --          ; --             ;
+; MISC_FILE                                        ; D:/fpga_project/VIP_design/sdram_ov7670_rgb/dev/sdram_ov7670_vga.dpf                                                                      ; --            ; --          ; --             ;
+; MISC_FILE                                        ; D:/Altera_Project/VIP_design/sdram_ov7670_rgb/dev/sdram_ov7670_vga.dpf                                                                    ; --            ; --          ; --             ;
+; MISC_FILE                                        ; C:/Documents and Settings/Administrator/桌面/VIP_Board_Information_Rev1.3/vip_example/06_sdram_ov7670_rgb_640480/dev/sdram_ov7670_vga.dpf ; --            ; --          ; --             ;
+; MISC_FILE                                        ; F:/图像处理电路板/图像开发板程序/vip_example/06_sdram_ov7670_rgb_640480/dev/sdram_ov7670_vga.dpf                                          ; --            ; --          ; --             ;
+; MISC_FILE                                        ; C:/06_sdram_ov7670_rgb_640480/dev/sdram_ov7670_vga.dpf                                                                                    ; --            ; --          ; --             ;
+; MISC_FILE                                        ; F:/图像处理电路板/图像开发板程序/已测试例程/9VGA_OV7670摄像头采集显示/09_sdram_ov7670_rgb_640480/dev/sdram_ov7670_vga.dpf                 ; --            ; --          ; --             ;
+; NUM_PARALLEL_PROCESSORS                          ; 2                                                                                                                                         ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                   ; Half Signal Swing                                                                                                                         ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                   ; Half Signal Swing                                                                                                                         ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS                  ; Half Vccio                                                                                                                                ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS                  ; Half Vccio                                                                                                                                ; --            ; --          ; --             ;
+; PARTITION_COLOR                                  ; -- (Not supported for targeted family)                                                                                                    ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL              ; -- (Not supported for targeted family)                                                                                                    ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE                           ; -- (Not supported for targeted family)                                                                                                    ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS               ; Off                                                                                                                                       ; --            ; --          ; eda_blast_fpga ;
++--------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:26     ; 1.0                     ; 4797 MB             ; 00:00:32                           ;
+; Partition Merge           ; 00:00:02     ; 1.0                     ; 4708 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:14     ; 1.0                     ; 5310 MB             ; 00:00:15                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4697 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:05     ; 1.1                     ; 4781 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:49     ; --                      ; --                  ; 00:00:52                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-K40ETFL  ; Windows 10 ; 10.0       ; x86_64         ;
+; Partition Merge           ; DESKTOP-K40ETFL  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-K40ETFL  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-K40ETFL  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-K40ETFL  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off sdram_ov7670_vga -c sdram_ov7670_vga
+quartus_cdb --read_settings_files=off --write_settings_files=off sdram_ov7670_vga -c sdram_ov7670_vga --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off sdram_ov7670_vga -c sdram_ov7670_vga
+quartus_asm --read_settings_files=off --write_settings_files=off sdram_ov7670_vga -c sdram_ov7670_vga
+quartus_sta sdram_ov7670_vga -c sdram_ov7670_vga
+
+
+
